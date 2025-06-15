@@ -10,6 +10,9 @@ app.post("/user", (req, res)=>{
     res.send("Data sent")
 })
 
+app.delete("/user", (req, res)=>{
+    res.send("Deleted")
+})
 app.use("/test",(req, res) =>{
     res.send("server is listening Ankur");
     
